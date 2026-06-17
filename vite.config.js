@@ -1,6 +1,7 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
+import base44 from "@base44/vite-plugin";
 
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react(), base44()],
 });
